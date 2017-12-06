@@ -8,15 +8,15 @@ import numpy as np
 root_dir = "SchoolIdolDicision/Image"
 categories = [
     "Kousaka Honoka", "Sonoda Umi", "Minami Kotori",
-    "Nishikino Maki", "Koizumi Hanayo", "Hosizora Rin",
-    "Ayase Eli", "Toujou Nozomi", "Yazawa Niko"
+    "Nishikino Maki", "Koizumi Hanayo", "Hoshizora Rin",
+    "Ayase Eli", "Toujou Nozomi", "Yazawa Nico"
 ]
 nb_classes = len(categories)
 image_size = 50
 
 #データをロード
 def main():
-    X_train, X_test, y_train, y_test = np.load("SchoolIdolDicision/Image/SchoolIdol.npy")
+    X_train, X_test, y_train, y_test = np.load("SchoolIdolDicision/Image/schoolidol2.npy")
     #データを正規化
     X_train = X_train.astype("float") / 256
     X_test = X_test.astype("float") / 256
