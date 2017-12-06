@@ -58,8 +58,8 @@ def get_thumbnail(dir_path, keyword, search_type):
 #main関数
 name = [
     "Kousaka Honoka", "Sonoda Umi", "Minami Kotori",
-    "Nishikino Maki", "Koizumi Hanayo", "Hosizora Rin",
-    "Ayase Eli", "Toujou Nozomi", "Yazawa Niko"
+    "Nishikino Maki", "Koizumi Hanayo", "Hoshizora Rin",
+    "Ayase Eli", "Toujou Nozomi", "Yazawa Nico"
 ]
 for charname in name:
     path = "SchoolIdolDicision/image/" + charname + "/"
